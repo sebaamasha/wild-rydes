@@ -14,12 +14,6 @@
     "categories": {
       "auth": {
         "wildrydes5e335192": {}
-      },
-      "function": {
-        "requestUnicornV2": {
-          "deploymentBucketName": "amplify-wildrydes-prod-4c47b-deployment",
-          "s3Key": "amplify-builds/requestUnicornV2-674134596d7075314f5a-build.zip"
-        }
       }
     }
   }

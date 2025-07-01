@@ -25,29 +25,5 @@
       "service": "Cognito"
     }
   },
-  "function": {
-    "requestUnicornV2": {
-      "build": true,
-      "providerPlugin": "awscloudformation",
-      "service": "Lambda"
-    }
-  },
-  "parameters": {
-    "AMPLIFY_function_requestUnicornV2_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "requestUnicornV2"
-        }
-      ]
-    },
-    "AMPLIFY_function_requestUnicornV2_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "requestUnicornV2"
-        }
-      ]
-    }
-  }
+  "function": {}
 }
