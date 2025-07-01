@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "RequestUnicorn",
+            "requestUnicornV2",
             {
               "Fn::Join": [
                 "",
                 [
-                  "RequestUnicorn",
+                  "requestUnicornV2",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "wildrydesLambdaRole6529d15d",
+            "wildrydesLambdaRole5cda185c",
             {
               "Fn::Join": [
                 "",
                 [
-                  "wildrydesLambdaRole6529d15d",
+                  "wildrydesLambdaRole5cda185c",
                   "-",
                   {
                     "Ref": "env"

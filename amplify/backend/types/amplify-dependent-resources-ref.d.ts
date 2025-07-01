@@ -12,7 +12,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "function": {
-    "RequestUnicorn": {
+    "requestUnicornV2": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",

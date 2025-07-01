@@ -26,26 +26,26 @@
     }
   },
   "function": {
-    "RequestUnicorn": {
+    "requestUnicornV2": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_RequestUnicorn_deploymentBucketName": {
+    "AMPLIFY_function_requestUnicornV2_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "RequestUnicorn"
+          "resourceName": "requestUnicornV2"
         }
       ]
     },
-    "AMPLIFY_function_RequestUnicorn_s3Key": {
+    "AMPLIFY_function_requestUnicornV2_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "RequestUnicorn"
+          "resourceName": "requestUnicornV2"
         }
       ]
     }
