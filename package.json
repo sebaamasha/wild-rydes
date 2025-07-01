@@ -11,6 +11,7 @@
     "@aws-amplify/cli": "^3.9.0",
     "aws-amplify": "^1.1.40",
     "aws-amplify-vue": "^0.2.17",
+    "aws-sdk": "^2.1692.0",
     "axios": ">=0.21.1",
     "core-js": "^2.6.5",
     "esri-loader": "^2.10.0",
